@@ -1,0 +1,48 @@
+.social_message {
+	position: relative;
+	padding: 10px;
+	margin: 1em 0 3em;
+	border: 2px solid #aaa;
+	color: #333;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.social_message:after { content:"\A"; white-space:pre; }
+
+.social_message:before {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 30px;
+	border-width: 20px 20px 0;
+	border-style: solid;
+	border-color: #aaa transparent;
+	display: block;
+	width: 0;
+}
+
+.social_message:after {
+	content: "";
+	position: absolute;
+	bottom: -16px;
+	left: 34px;
+	border-width: 16px 16px 0;
+	border-style: solid;
+	border-color: #fff transparent;
+	display: block;
+	width: 0;
+}
+
+.social_user {
+	color: #aaa;
+	padding-left: 15px;
+}
+.social_created {
+	color: #aaa;
+}
+.social_comment {
+	display: block;
+}
